@@ -10,11 +10,11 @@
 
 @keyframes Shorten {
     from {
-        width: 960px;
+        width: 55%;
     }
 
     to {
-        width: 90px;
+        width: 5%;
     }
 }
 
@@ -121,13 +121,13 @@ nav a:hover {
 }
 
 .AbilityTable {
-    height: 400px;
-    width: 1700px;
+    height: 55%;
+    width: auto;
     text-align: left;
     border-radius: 10px;
     padding: 20px;
     margin: 0px;
-    width: 1700px;
+    width: auto;
     align-items: center;
 }
 
@@ -170,7 +170,7 @@ nav a:hover {
 
 .SchoolFront {
     background-color: #2B4247;
-    width: 960px;
+    width: 55%;
     position: absolute;
     color: white;
     font-family: '新細明體';
@@ -183,7 +183,7 @@ nav a:hover {
 .SchoolAnimation:hover .SchoolFront {
     animation: Shorten 1s;
     box-shadow: 10px 10px 5px rgb(46, 45, 45);
-    width: 90px;
+    width: 5%;
 }
 
 .SchoolText {
